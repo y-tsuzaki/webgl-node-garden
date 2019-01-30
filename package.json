@@ -1,0 +1,32 @@
+{
+  "name": "webgl-nodegarden",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "dat.gui": "^0.7.5",
+    "global": "^4.3.2",
+    "gulp": "^4.0.0",
+    "stats.js": "^0.17.0",
+    "three": "^0.100.0"
+  },
+  "devDependencies": {
+    "@types/dat.gui": "^0.7.2",
+    "@types/jquery": "^3.3.29",
+    "@types/stats": "^0.16.30",
+    "@types/three": "^0.93.18",
+    "gulp-webserver": "^0.9.1",
+    "typescript": "^3.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": ""
+}
