@@ -25,10 +25,8 @@ class WebGLNodeGarden {
     let height = window.innerHeight;
 
     // init renderer
-    // TODO: [ts] 'THREE' refers to a UMD global, but the current file is a module. Consider adding an import instead. [2686]
-    // なんでnamespaceとるとエラーになるんだ？？まじでわけわからん。
     this._renderer = new THREE.WebGLRenderer({ antialias: true , canvas: this._canvas});
-    this._renderer.setClearColor(0x000011); // TODO:色は外だし。パラメータで指定可能にする
+    this._renderer.setClearColor(0x000011);
     var pixelRatio = window.devicePixelRatio;
     this._renderer.setSize(width, height);
     this._renderer.setPixelRatio(pixelRatio);
