@@ -1,4 +1,4 @@
 # webgl-node-garden
 THREE.js x Typescript x Node Garden
 
-.nojekyllが動かない・・
+(いろいろ実験しながら実装中・・・）
